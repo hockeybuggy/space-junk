@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+git fetch origin
+git tag -a $(VERSION) origin/master
+git push origin $(VERSION)
